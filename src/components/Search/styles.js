@@ -7,7 +7,7 @@ export const Container = styled.section`
 export const Filters = styled.div`
   margin-top: 40px;
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   margin-right: 10px;
 
   border-bottom-width: 1px;

@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.button`
   background: none;
-  font-size: 16px;
+  font-size: 1rem;
   border: 0;
 
   color: ${({ theme }) => theme.COLORS.GRAY_100};

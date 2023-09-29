@@ -8,13 +8,13 @@ export const Container = styled.div`
   background-color: ${({ theme }) => theme.COLORS.GRAY_700};
   color: ${({ theme }) => theme.COLORS.GRAY_100};
   
-  border-radius: 7px;
+  border-radius: 0.43rem;
   
   > input {
-    height: 56px;
+    height: 3.5rem;
     width: 100%;
-    font-size: 16px;
-    padding: 12px;
+    font-size: 1rem;
+    padding: 0.75rem;
     
     color: ${({ theme }) => theme.COLORS.GRAY_100};
     background: transparent;
@@ -26,8 +26,8 @@ export const Container = styled.div`
   }
   
   > svg {
-    margin-left: 16px;
-    font-size: 24px;
+    margin-left: 1rem;
+    font-size: 1.5rem;
     color: ${({ theme }) => theme.COLORS.GRAY_400};
   }
-`;
+`; 

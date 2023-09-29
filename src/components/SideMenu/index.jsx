@@ -10,17 +10,19 @@ import {
 
 import { Container, Footer, Nav, Title, Header, Button } from "./styles";
 
-export function SideMenu() {
+export function SideMenu({ menuIsOpen, onCloseMenu }) {
   return (
-    <Container>
+    <Container data-menu-is-open={menuIsOpen}>
       <Header>
         <Title>
           <CheckCircle /> e-Tasks
         </Title>
 
-        <Button>
-          <X />
-        </Button>
+        {menuIsOpen && 
+          <Button onClick={onCloseMenu}>
+            <X />
+          </Button>
+        }
       </Header>
 
       <Nav>
